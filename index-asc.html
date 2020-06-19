@@ -6,25 +6,15 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <body>
-	<div class="container-fluid bg-secondary">
-		<div class="jumbotron bg-dark">
-			<h1 class="display-4 text-light">Explore Vienna</h1>
-			<hr class="my-4 bg-dark">
-			<p class="font-weight-bold text-light">Find the best locations and events in Vienna!</p>
-
-			<div class="dropdown float-right">
-				<button class="btn btn-dark border border-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Sort
-				</button>
-				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-					<a class="dropdown-item" href="index-asc.html">Location</a>
-					<a class="dropdown-item" href="index-desc.html">Update</a>
-				</div>
+	<div id="wrapping" class="container">
+		<div class="dropdown">
+			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Sort
+			</button>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<a class="dropdown-item" href="index-asc.html">Location</a>
+				<a class="dropdown-item" href="index-desc.html">Update</a>
 			</div>
-		</div>
-
-		<div id="wrapping" class="row justify-content-around">
-			
 		</div>
 		
 	</div>
